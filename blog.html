@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog - 博客
+---
+<div class="posts">
+	<h1>博客文章</h1>
+    {% for post in site.posts %}
+      <article>
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3> 
+		<p class="meta"><span class="label label-default"><i class="fa fa-clock-o fw"> &nbsp;</i>{{ post.date | date_to_string }}</span></p>
+	<p>{{ post.content | truncatewords:50 | strip_html }} </p>
+      </article>
+    {% endfor %}
+</div>

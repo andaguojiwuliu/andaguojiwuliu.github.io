@@ -1,0 +1,22 @@
+name: Shawn's here!
+
+description: Welcome to Shawn's blog.
+
+url: http://loyogo.github.io
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+
+pygments: true
+
+# Permalinks
+permalink:        /:year/:month/:day/:title.html
+
+exclude:          ["README.md"]
+
+encoding:         UTF-8
+
+paginate:         10
+
+author: Shawn Li
+

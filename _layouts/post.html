@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+
+<div class="post">
+<h2>{{ page.title }}</h2>
+<p class="meta"><span class="label label-default"><i class="fa fa-clock-o fw"> &nbsp;</i>{{ page.date | date_to_string }}</span></p>
+
+{{ content }}
+<!-- Duoshuo Comment BEGIN -->
+		<div class="ds-thread"  data-thread-key="<#article/id#>" data-title='{{ page.title}}' ></div>
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"loyogo"};
+			(function() {
+				var ds = document.createElement('script');
+				ds.type = 'text/javascript';ds.async = true;
+				ds.src = 'http://static.duoshuo.com/embed.js';
+				ds.charset = 'UTF-8';
+				(document.getElementsByTagName('head')[0] 
+				|| document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+			</script>
+<!-- Duoshuo Comment END -->
+</div>
