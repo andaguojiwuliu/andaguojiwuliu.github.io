@@ -1,13 +1,13 @@
-name: Shawn's here!
+name: 安达国际物流
 
-description: Welcome to Shawn's blog.
+description: 欢迎您的访问
 
-url: http://loyogo.github.io
+url: http://andaguojiwuliu.github.io
 
 markdown:      maruku
 markdown_ext:  markdown,mkd,mkdn,md
 
-pygments: true
+pygments: false
 
 # Permalinks
 permalink:        /:year/:month/:day/:title.html

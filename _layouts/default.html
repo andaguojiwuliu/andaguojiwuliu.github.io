@@ -21,6 +21,8 @@
  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
  <link href="/css/style.css" rel="stylesheet">
  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="/js/holder.js"></script>
+
   <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
@@ -41,7 +43,7 @@
 <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">Shawn's here!</a>
+          <a href="/" class="navbar-brand">安达国际物流运输公司</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -50,35 +52,34 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
-            <li>
-              <a href="/blog.html">Blog</a>
-            </li>
-             <li>
-              <a href="/aboutme.html">About Me</a>
-            </li>
-
+		  <li><a href="/">首页</a></li>
+             <li><a href="/gongsijieshao.html">公司介绍</a></li>
+			 <li><a href="/fuwu.html">服务项目</a></li>
+			 <li><a href="/lianxi.html">联系我们</a></li>
+			<li><a href="/zizhi.html">资质荣誉</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://weibo.com/loyogo" target="_blank"><i class="fa fa-weibo fa-fw"></i> 微博</a></li>
-            <li><a href="https://github.com/loyogo" target="_blank"><i class="fa fa-github fa-fw"></i> 微博</a></li>
-			<li><a href="mailto:loyogo@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw"></i> Email</a></li>
-			<li><a href="/feed.xml" target="_blank"><i class="fa fa-rss fa-fw"></i> 订阅</a></li>
+            <li><a href="http://weibo.com/loyogo" target="_blank"><i class="fa fa-weibo"></i> 微博</a></li>
+            <li><a href="https://github.com/loyogo" target="_blank"><i class="fa fa-github"></i> 微信</a></li>
+	<li><a href="/feed.xml" target="_blank"><i class="fa fa-phone "></i> 电话 123456789 </a></li>
+	<li><a href="/feed.xml" target="_blank"><i class="fa fa-user "></i> 赵经理</a></li>
           </ul>
         </div>
       </div>
 </div>
 </header>		
-          		  
-<div class="container">
-	<div class="row">
-		<div class="col-md-3 sidebar">
-		
-		<p>微信请搜索"loyogo",或扫描下面的二维码</p>
-		<div class="thumbnail" ><img src="/img/weixin.jpg" alt="微信请搜索'loyogo'" class="img-rounded"></div>		
-<iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=100&skin=5&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1657181562&verifier=bb8abaee&dpc=1"></iframe>		</div>
-		<div class="col-md-9" role="main">{{content}}</div>
-	</div>
-</div>
+<body>
+{{content}}
+
+      <footer class='footer'>
+		<div class="container">
+		<div class="info">
+        <p class="pull-right"><a href="#">回到页首</a></p>
+        <p>Copyright&copy; 2014 安达公司. &middot;  All Rights Reserved. 版权所有 </p>
+		</div>
+		</div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </body>
 
 </html>
