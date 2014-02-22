@@ -5,7 +5,7 @@ padding-top: 50px;
 body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
 
 header{ 
-#margin-bottom: 50px;
+margin-bottom: 50px;
 
 }
 .navbar{
@@ -49,6 +49,10 @@ width: 100%;
 background: url('/img/main_bg_image.jpg') repeat-x transparent 50% 50%;
 text-align: center;
 color: #fff;
+margin-top:-50px;
+}
+
+.slide{
 margin-top:-50px;
 }
 /* Carousel base class */
@@ -96,13 +100,22 @@ margin-top:-50px;
   margin-right: 10px;
   margin-left: 10px;
 }
-
-
+.navbar-default  .navbar-brand{
+color: #fff;
+font-weight: bold;
+font-size: 26px;
+}
+.navbar-default  .navbar-brand:hover{
+	color: #ccc;
+}
+.jumbotron{
+font-size:21px;
+}
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -148,6 +161,7 @@ margin-top:-50px;
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
+	width:1024px;
   }
 
   .featurette-heading {
